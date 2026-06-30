@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christian Felipe - Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <h1 class="logo">Christian Felipe</h1>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="sobre-content">
+          <img src="https://avatars.githubusercontent.com/u/52362327?v=4&size=512" alt="Foto de perfil" class="avatar" />
+          <div>
+            <p>Olá! Meu nome é <strong>Christian Felipe</strong>, tenho 24 anos e sou desenvolvedor especialista em unir tecnologia e educação para criar soluções digitais interativas. Desenvolvedor de websites e jogos desde 2018, focado em inovação, inteligência artificial e excelência no desenvolvimento ágil.</p>
+            <p>Sou brasileiro, natural de Santa Rita - MA, dedicado e estou sempre em busca de novos desafios para aprimorar minhas habilidades.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacao" class="section">
+      <div class="container">
+        <h2 class="section-title">Formação e Experiência</h2>
+        <div class="formacao-grid">
+          <div class="card-formacao">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Análise e Desenvolvimento de Sistemas</h3>
+            <span>Cursando</span>
+            <p>Curso voltado para desenvolvimento de software, banco de dados e engenharia de requisitos.</p>
+          </div>
+          <div class="card-formacao">
+            <i class="fas fa-briefcase"></i>
+            <h3>Atendente de Loja na Maxx Internet</h3>
+            <span>2025 - Atual</span>
+            <p>Atendimento ao cliente e suporte técnico na área de internet e telecomunicações.</p>
+          </div>
+          <div class="card-formacao">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Criador de Web Sites e Jogos</h3>
+            <span>Desde 2020</span>
+            <p>Desenvolvimento de websites, jogos educativos e experiências digitais interativas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2 class="section-title">Projetos</h2>
+        <div class="portfolio-grid">
+          <div class="card-projeto">
+            <div class="card-img" style="background: linear-gradient(135deg, #25D366, #128C7E);">
+              <i class="fab fa-whatsapp"></i>
+            </div>
+            <div class="card-body">
+              <h3>Bot WhatsApp com Painel</h3>
+              <p>Bot para WhatsApp com painel administrativo em HTML. Automação de mensagens e gerenciamento.</p>
+              <div class="card-tech">
+                <span>Node.js</span><span>HTML</span><span>JavaScript</span>
+              </div>
+              <a href="https://github.com/christianfelipesf/BotStickerNode" class="btn">Ver Projeto</a>
+            </div>
+          </div>
+          <div class="card-projeto">
+            <div class="card-img" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+              <i class="fas fa-gamepad"></i>
+            </div>
+            <div class="card-body">
+              <h3>A Casa do Norte</h3>
+              <p>Jogo feito em Godot, publicado no itch.io. Experiência interativa e divertida.</p>
+              <div class="card-tech">
+                <span>Godot</span><span>GDScript</span><span>itch.io</span>
+              </div>
+              <a href="https://christianfelipesf.itch.io/a-casa-do-norte" class="btn">Ver Projeto</a>
+            </div>
+          </div>
+          <div class="card-projeto">
+            <div class="card-img" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+              <i class="fas fa-cloud-upload-alt"></i>
+            </div>
+            <div class="card-body">
+              <h3>Game Auto Backup</h3>
+              <p>Sistema de backup automático para jogos. Nunca perca seus saves novamente.</p>
+              <div class="card-tech">
+                <span>Python</span><span>Automação</span><span>Backup</span>
+              </div>
+              <a href="https://github.com/christianfelipesf/Game-Auto-Backup" class="btn">Ver Projeto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container">
+        <h2 class="section-title">Contato</h2>
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Seu nome" />
+            <span class="error-msg"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="seu@email.com" />
+            <span class="error-msg"></span>
+          </div>
+          <div class="form-group">
+            <label for="assunto">Assunto</label>
+            <input type="text" id="assunto" placeholder="Assunto da mensagem" />
+            <span class="error-msg"></span>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" rows="5" placeholder="Sua mensagem..."></textarea>
+            <span class="error-msg"></span>
+          </div>
+          <button type="submit" class="btn btn-submit">Enviar</button>
+        </form>
+        <div class="contato-links">
+          <a href="tel:989898138217" title="Telefone"><i class="fas fa-phone"></i></a>
+          <a href="mailto:christian.felipe18@gmail.com" title="E-mail"><i class="fas fa-envelope"></i></a>
+          <a href="https://wa.me/5598989138217" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://linkedin.com/in/christian-felipe-96b621293" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Christian Felipe. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
